@@ -2,9 +2,22 @@
   "name": "google-ads-audit",
   "version": "1.0.0",
   "description": "Read-only Google Ads audits in Claude Code: find wasted spend, build negative keyword files for Google Ads Editor, and write client reports. Nothing ever changes in the account.",
-  "author": { "name": "Ads MCP", "url": "https://adsmcp.dev" },
+  "author": {
+    "name": "adsmcp.dev",
+    "url": "https://adsmcp.dev"
+  },
   "homepage": "https://adsmcp.dev",
   "repository": "https://github.com/vetro976/google-ads-audit",
   "license": "MIT",
-  "keywords": ["google-ads", "ppc", "negative-keywords", "wasted-spend", "gaql", "audit", "mcp"]
+  "keywords": [
+    "google-ads",
+    "ppc",
+    "negative-keywords",
+    "wasted-spend",
+    "gaql",
+    "audit",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://adsmcp.dev/privacy",
+  "icon": "./.claude-plugin/icon.png"
 }
