@@ -14,7 +14,11 @@ The `google-ads-queries` skill also kicks in on any Google Ads question: it pick
 
 ## Setup
 
-1. Install the plugin.
+1. Install the plugin in Claude Code:
+   ```
+   /plugin marketplace add vetro976/google-ads-audit
+   /plugin install google-ads-audit@adsmcp
+   ```
 2. The first time a command runs, Claude Code opens a Google sign-in for Ads MCP. Sign in with the Google account that can open your Google Ads accounts.
 
 Free plan: 15 tool calls per month. Unlimited: $55.30/month for the first 10 subscribers, then $79/month. Details at [adsmcp.dev](https://adsmcp.dev).
