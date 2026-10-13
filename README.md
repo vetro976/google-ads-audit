@@ -21,6 +21,16 @@ The `google-ads-queries` skill also kicks in on any Google Ads question: it pick
    ```
 2. The first time a command runs, Claude Code opens a Google sign-in for Ads MCP. Sign in with the Google account that can open your Google Ads accounts.
 
+### Gemini CLI
+
+The same repo is a Gemini CLI extension, with the Ads MCP server and the audit rules (no slash commands):
+
+```
+gemini extensions install https://github.com/vetro976/google-ads-audit
+```
+
+The first tool call opens the Google sign-in for Ads MCP.
+
 Free plan: 15 tool calls per month. Unlimited: $55.30/month for the first 10 subscribers, then $79/month. Details at [adsmcp.dev](https://adsmcp.dev).
 
 If you already added the Ads MCP connector on claude.ai, its tools may show up twice in Claude Code. Both work the same.

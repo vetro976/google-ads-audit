@@ -1,0 +1,11 @@
+{
+  "name": "google-ads-audit",
+  "version": "1.0.0",
+  "description": "Read-only Google Ads audits: find wasted spend, search terms that never convert, and broken tracking. Ads MCP can read your accounts but never change them.",
+  "mcpServers": {
+    "ads-mcp": {
+      "httpUrl": "https://adsmcp.dev/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
