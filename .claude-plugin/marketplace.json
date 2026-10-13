@@ -1,0 +1,17 @@
+{
+  "name": "adsmcp",
+  "owner": {
+    "name": "adsmcp.dev",
+    "url": "https://adsmcp.dev"
+  },
+  "metadata": {
+    "description": "Ads MCP plugins for Claude Code: read-only Google Ads audits."
+  },
+  "plugins": [
+    {
+      "name": "google-ads-audit",
+      "source": "./",
+      "description": "Read-only Google Ads audits in Claude Code: find wasted spend, build negative keyword files for Google Ads Editor, and write client reports."
+    }
+  ]
+}
