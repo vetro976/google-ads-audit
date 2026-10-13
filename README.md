@@ -6,9 +6,9 @@ Read-only Google Ads audits from your terminal. It connects Claude Code to [Ads 
 
 | Command | What it does | Plan |
 |---|---|---|
-| `/audit [customer ID] [period]` | Ranks the search terms, keywords and campaigns that spent without converting, and checks tracking and disapproved ads | Free |
-| `/negatives [customer ID] [Exact\|Phrase]` | Saves a negative keywords CSV ready for Google Ads Editor | Unlimited |
-| `/report [customer ID] [text\|dashboard]` | Writes a plain-words report for a client, as Markdown or a one-page HTML dashboard | Unlimited |
+| `/google-ads-audit:audit [customer ID] [period]` | Ranks the search terms, keywords and campaigns that spent without converting, and checks tracking and disapproved ads | Free |
+| `/google-ads-audit:negatives [customer ID] [Exact\|Phrase]` | Saves a negative keywords CSV ready for Google Ads Editor | Unlimited |
+| `/google-ads-audit:report [customer ID] [text\|dashboard]` | Writes a plain-words report for a client, as Markdown or a one-page HTML dashboard | Unlimited |
 
 The `google-ads-queries` skill also kicks in on any Google Ads question: it picks the right tool and writes GAQL that runs the first time, so you do not burn calls on failed queries.
 
