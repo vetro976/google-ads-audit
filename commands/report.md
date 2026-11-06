@@ -12,4 +12,4 @@ Write a client report with the ads-mcp tools. Arguments: $ARGUMENTS
    - `client_dashboard`: save the HTML as `report-<customer ID>-<YYYY-MM-DD>.html`, and give the user the temporary link (it expires in 24 hours).
 4. Tell the user the file path in one line, and the one number the client will care about most (wasted spend, copied exactly from the result).
 
-The report is written for someone who does not do PPC: do not add jargon to it. This tool is on the Unlimited plan. If it returns the plan message, show it to the user as it is, with its link, and do not retry.
+The report is written for someone who does not do PPC: do not add jargon to it. This tool is on the paid plans. If it returns the plan message, show it to the user as it is, with its link, and do not retry.

@@ -7,8 +7,8 @@ Read-only Google Ads audits from your terminal. It connects Claude Code to [Ads 
 | Command | What it does | Plan |
 |---|---|---|
 | `/google-ads-audit:audit [customer ID] [period]` | Ranks the search terms, keywords and campaigns that spent without converting, and checks tracking and disapproved ads | Free |
-| `/google-ads-audit:negatives [customer ID] [Exact\|Phrase]` | Saves a negative keywords CSV ready for Google Ads Editor | Unlimited |
-| `/google-ads-audit:report [customer ID] [text\|dashboard]` | Writes a plain-words report for a client, as Markdown or a one-page HTML dashboard | Unlimited |
+| `/google-ads-audit:negatives [customer ID] [Exact\|Phrase]` | Saves a negative keywords CSV ready for Google Ads Editor | Paid |
+| `/google-ads-audit:report [customer ID] [text\|dashboard]` | Writes a plain-words report for a client, as Markdown or a one-page HTML dashboard | Paid |
 
 The `google-ads-queries` skill also kicks in on any Google Ads question: it picks the right tool and writes GAQL that runs the first time, so you do not burn calls on failed queries.
 
@@ -31,6 +31,6 @@ gemini extensions install https://github.com/vetro976/google-ads-audit
 
 The first tool call opens the Google sign-in for Ads MCP.
 
-Free plan: 15 tool calls per month. Unlimited: $55.30/month for the first 10 subscribers, then $79/month. Details at [adsmcp.dev](https://adsmcp.dev).
+Free plan: 15 tool calls per month. Paid plans start at $25/month, and the Agency plan covers your whole team. Plans and prices at [adsmcp.dev](https://adsmcp.dev/#pricing).
 
 If you already added the Ads MCP connector on claude.ai, its tools may show up twice in Claude Code. Both work the same.

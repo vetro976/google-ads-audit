@@ -15,10 +15,10 @@ Every ads-mcp call that reads the account uses one call of the user's monthly pl
 | Where money is wasted, what to cut, why costs are high | `find_wasted_spend` | 1 |
 | What people typed before clicking | `search_terms` | 1 |
 | How each campaign did | `campaign_performance` | 1 |
-| A negative keywords file | `negative_keywords_file` (Unlimited) | 1 |
-| Did a change on a given day help | `did_it_work` (Unlimited) | 1 |
-| A report for a client | `client_report` or `client_dashboard` (Unlimited) | 1 |
-| Daily metrics to keep | `export_history` (Unlimited) | 1 |
+| A negative keywords file | `negative_keywords_file` (paid plans) | 1 |
+| Did a change on a given day help | `did_it_work` (paid plans) | 1 |
+| A report for a client | `client_report` or `client_dashboard` (paid plans) | 1 |
+| Daily metrics to keep | `export_history` (paid plans) | 1 |
 | Anything else | `run_gaql_query` | 1 per query |
 
 Use `run_gaql_query` only when no tool above covers the question. Plan the query, then send it once.

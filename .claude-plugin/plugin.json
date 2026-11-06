@@ -1,6 +1,6 @@
 {
   "name": "google-ads-audit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read-only Google Ads audits in Claude Code: find wasted spend, build negative keyword files for Google Ads Editor, and write client reports. Nothing ever changes in the account.",
   "author": {
     "name": "adsmcp.dev",

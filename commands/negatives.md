@@ -11,4 +11,4 @@ Build a negative keywords file with the ads-mcp tools. Arguments: $ARGUMENTS
 4. Save the CSV block in the current directory, with the file name the tool result gives, and tell the user the path.
 5. Repeat the import steps from the tool result in one line. Nothing changes in the account until the user reviews the preview in Google Ads Editor and posts it.
 
-This tool is on the Unlimited plan. If it returns the plan message, show it to the user as it is, with its link, and do not retry. The free alternative is `/audit`, which lists the same terms so they can add them by hand.
+This tool is on the paid plans. If it returns the plan message, show it to the user as it is, with its link, and do not retry. The free alternative is `/audit`, which lists the same terms so they can add them by hand.
